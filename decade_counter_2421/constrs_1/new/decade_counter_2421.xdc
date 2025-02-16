@@ -1,0 +1,7 @@
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets CLK_IBUF]
+set_property -dict {PACKAGE_PIN D21 IOSTANDARD LVCMOS18} [get_ports CLK]
+set_property -dict {PACKAGE_PIN J4 IOSTANDARD LVCMOS18} [get_ports RESET]
+set_property -dict {PACKAGE_PIN F15 IOSTANDARD LVCMOS18} [get_ports OUT[3]]
+set_property -dict {PACKAGE_PIN F13 IOSTANDARD LVCMOS18} [get_ports OUT[2]]
+set_property -dict {PACKAGE_PIN F14 IOSTANDARD LVCMOS18} [get_ports OUT[1]]
+set_property -dict {PACKAGE_PIN F16 IOSTANDARD LVCMOS18} [get_ports OUT[0]]
